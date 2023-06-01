@@ -1,0 +1,67 @@
+header {
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+  
+.logo {
+  max-width: 170px;
+  max-height: 170px;
+}
+  
+.nav {
+  display: flex;   
+  align-items: center;
+}
+
+.nav li {
+  margin-right: 30px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  transition: border-color 0.3s;
+  font-weight: bold;
+}
+
+.nav li:hover {
+  border: 1px solid #BC3126;
+  border-radius: 5%;
+}
+  
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  margin-right: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+  
+.feedback {
+  display: flex;
+  align-items: center;
+}
+
+.feedback span {
+  margin-right: 20px;
+}
+
+  
+.feedback svg {
+  background-color: #BC3126;
+  border-radius: 40%;
+}
+

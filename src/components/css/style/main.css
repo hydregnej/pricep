@@ -1,0 +1,54 @@
+.container__box {
+    background-image: url('/src/img/colors/gray.png');
+    background-size: cover;
+    background-position: center center; 
+    height: 100vh; 
+    background-blend-mode: multiply;
+    background-color: #bcbcbca4;
+    display: grid; 
+    grid-template-rows: 1.8fr 0.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."; 
+}
+
+.header-part__item {
+    max-height: 300px;
+    margin: 10px 0 0 30px;
+}
+
+.header-part__item h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-part__item li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.main-social {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.icons img {
+    max-width: 70px;
+}
